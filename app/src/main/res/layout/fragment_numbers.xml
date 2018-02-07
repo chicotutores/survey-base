@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.blueappsdev.unimedpesquisa.utils.CustomTextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dinFamily="regular"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/minusButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="-"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomTextView
+            android:id="@+id/quantityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="0"
+            android:textColor="@android:color/white"
+            app:dinFamily="medium"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/plusButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center_vertical"
+            android:text="+"
+            android:textSize="25sp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.blueappsdev.unimedpesquisa.utils.CustomButton
+        android:id="@+id/confirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="@string/confirm"
+        android:textSize="25sp"/>
+
+
+</LinearLayout>

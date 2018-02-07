@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">UnimedPesquisa</string>
+
+    <string name="intro_text">Para melhorar cada vez mais nosso atendimento à população nessa unidade de saúde,
+        a <br>Unimed</br> quer ouvir você, colher sua opinião para uma avaliação sobre a qualidade dos nossos
+        serviços desde o primeiro atendimento na recepção, à consulta médica, exames, tempo de espera,
+        atenção dos nossos servidores para com o cidadão, e outros.\n
+    Participe, dê sua opinião e nos ajude a oferecer um serviço de saúde cada vez melhor!</string>
+    <string name="click_here">Clique aqui e faça sua avaliação</string>
+    <string name="questions_form">Questionário de avaliação</string>
+    <string name="help_us">Participe, dê sua opinião e nos ajude a oferecer \n um serviço cada vez melhor</string>
+    <string name="sign_up">Cadastro</string>
+    <string name="name">Nome</string>
+    <string name="email">E-mail</string>
+    <string name="continue_text">Continuar</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="number_7">7</string>
+    <string name="number_8">8</string>
+    <string name="number_9">9</string>
+    <string name="number_10">10</string>
+    <string name="confirm">Confirmar</string>
+    <string name="thank_you">Muito obrigado!</string>
+
+</resources>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <com.blueappsdev.unimedpesquisa.utils.CustomTextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:dinFamily="regular"
+        android:textSize="25sp"
+        android:gravity="center" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number1Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_1"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number2Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_2"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number3Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_3"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number4Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_4"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number5Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_5"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number6Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_6"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number7Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_7"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number8Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_8"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number9Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:text="@string/number_9"
+            android:textSize="25sp"/>
+
+        <com.blueappsdev.unimedpesquisa.utils.CustomButton
+            android:id="@+id/number10Button"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/number_10"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>
